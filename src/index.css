@@ -1,13 +1,75 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../src/images/dog-background-image.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: #9b9b9b;
+
+}
+
+.container{
+  max-width: 90%;
+  min-height: 250px;
+  background-color: white;
+  border: 1px solid steelblue;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Breed Selection Bar Component Styles */
+
+.breed-selection-form {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 5px 20px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* Dog Images Component Styles */
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+  border: steelblue 2px solid;
+  border-radius: 25px;
+  transition: transform 0.3s;
+}
+
+.single-image:hover {
+  transform: scale(1.1);
 }
