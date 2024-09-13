@@ -1,3 +1,20 @@
+# Brief Summary
+
+<p align="center">
+  <img width="800" alt="Dog Image Gallery Home Page" src="https://github.com/user-attachments/assets/18e66922-4e41-489e-9d18-12a2845f486e">
+</p>
+<p align="center">
+  <sub>
+    Preview of the home page after three images of boxer dogs are fetched
+  </sub>
+</p>
+
+This website was created using React.js and was designed as a way to practice pulling data from an API. It uses the Dog CEO API to fetch images of dogs based on the breed and number of images selected by the user.
+
+<ins>Highlighted skills</ins>: React.js, API calls, HTML, CSS, JavaScript, DOM Manipulation, Conditional Rendering
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
